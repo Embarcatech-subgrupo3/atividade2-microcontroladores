@@ -21,7 +21,7 @@ void init_leds()
 }
 
 // Liga o LED verde e desliga os outros LEDs
-void ligar_led_vermelho()
+void ligar_led_verde()
 {
     gpio_put(LED_VERDE, 1);
     gpio_put(LED_AZUL, 0);
