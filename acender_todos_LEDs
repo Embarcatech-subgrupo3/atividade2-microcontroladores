@@ -29,3 +29,24 @@ void ligar_todos_leds() {
     printf("Todos os LEDs foram acesos.\n");
 }
 
+int main() {
+    stdio_init_all();
+    init_leds();
+
+    char comando[10];  // Buffer para armazenar o comando
+
+    printf("Digite 'ALL' para acender todos os LEDs.\n");
+
+    while (1) {
+        if (fgets(comando, sizeof(comando), stdin)) {  // Lê o comando via UART
+            // Remove o caractere de nova linha (\n)
+            comando[strcspn(comando, "\n")] = 0;
+
+            if (strcmp(comando, "ALL") == 0) {
+                ligar_todos_leds();        
+            } else {
+                printf("Comando inválido. Use 'ALL'.\n");
+            }
+        }
+    }
+}
