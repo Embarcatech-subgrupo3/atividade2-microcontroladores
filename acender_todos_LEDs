@@ -20,3 +20,12 @@ void init_leds() {
     gpio_set_dir(LED_VERMELHO, GPIO_OUT);
     gpio_put(LED_VERMELHO, 0);
 }
+
+// Liga todos os LEDs
+void ligar_todos_leds() {
+    gpio_put(LED_VERDE, 1);
+    gpio_put(LED_AZUL, 1);
+    gpio_put(LED_VERMELHO, 1);
+    printf("Todos os LEDs foram acesos.\n");
+}
+
