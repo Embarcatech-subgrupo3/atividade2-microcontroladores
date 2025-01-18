@@ -1,0 +1,7 @@
+#include <stdio.h>
+#include "pico/stdlib.h"
+
+// Definição dos pinos dos LEDs RGB
+#define LED_VERDE 11
+#define LED_AZUL 12
+#define LED_VERMELHO 13
