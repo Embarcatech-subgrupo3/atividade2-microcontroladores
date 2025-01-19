@@ -10,7 +10,6 @@ Desenvolvedores:<br>
 Lana Ramos Gomes<br>
 Luiz Gustavo do Valle Vieira<br>
 Matheus Félix Dias<br>
-Miquele Gomes Nogueira Santana<br>
 Paulo Henrique de Farias Martins<br>
 ## Instruções de Uso
 
