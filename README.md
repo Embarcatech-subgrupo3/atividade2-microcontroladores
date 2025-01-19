@@ -36,9 +36,9 @@ Paulo Henrique de Farias Martins<br>
 
 Confira uma demonstração prática do projeto no YouTube:
 
-[![Demonstração do Projeto](https://img.youtube.com/vi/AomWgx0OuHw/0.jpg)](https://www.youtube.com/watch?v=AomWgx0OuHw)
+[![Demonstração do Projeto](https://img.youtube.com/vi/z7y4-HnHf04/0.jpg)](https://www.youtube.com/watch?v=z7y4-HnHf04)
 
 Clique na imagem ou no link abaixo para assistir:
-[https://youtu.be/AomWgx0OuHw](https://youtu.be/AomWgx0OuHw)
+[https://youtu.be/z7y4-HnHf04](https://youtu.be/z7y4-HnHf04)
 
 ---
