@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "author": "Bruno Fernandes",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-pi-pico-w",
+      "id": "pico",
+      "top": -3.25,
+      "left": 22.75,
+      "attrs": { "builder": "pico-sdk" }
+    },
+    {
+      "type": "wokwi-rgb-led",
+      "id": "rgb1",
+      "top": 4,
+      "left": -85.3,
+      "attrs": { "common": "cathode" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -26.4,
+      "left": 136.2,
+      "attrs": { "volume": "0.1" }
+    }
+  ],
+  "connections": [
+    [ "pico:GP0", "$serialMonitor:RX", "", [] ],
+    [ "pico:GP1", "$serialMonitor:TX", "", [] ],
+    [ "rgb1:R", "pico:GP13", "red", [ "v115.2", "h182.4" ] ],
+    [ "rgb1:B", "pico:GP12", "blue", [ "v105.6", "h174.4" ] ],
+    [ "rgb1:G", "pico:GP11", "limegreen", [ "v96", "h183.7" ] ],
+    [ "rgb1:COM", "pico:GND.4", "white", [ "v114.8", "h192.1" ] ],
+    [ "pico:GP21", "bz1:2", "green", [ "h77.11", "v-76.8" ] ],
+    [ "bz1:1", "pico:GND.6", "green", [ "v67.2", "h-67.2" ] ]
+  ],
+  "dependencies": {},
+
+  "serialMonitor": {
+    "display": "auto",
+    "newline": "lf",
+    "convertEol": false
+  }
+}
